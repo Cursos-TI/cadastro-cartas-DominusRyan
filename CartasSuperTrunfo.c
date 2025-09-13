@@ -11,9 +11,18 @@ int main() {
   char cidade[20];
   int populacao;
   float area;
-  
+  float pib;
+  int turisticos;
   // Área para entrada de dados
+  printf("Digite apenas a Inicial do seu estado: \n", estado);
+  scanf(" %c", &estado);
 
+  printf("Digite o Código da sua Cidade: (Incial + números ex:A01)\n");
+  scanf(" %s", codigo);
+  
+  printf("DIgite o Nome da sua cidade: \n");
+  scanf(" %s", cidade);
+  
   // Área para exibição dos dados da cidade
 
 return 0;
